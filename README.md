@@ -1,13 +1,13 @@
-### zoinks
+# zoinks
 Website testing tool - Finds non-200 responses, SSL errors, Javascript errors and more!
 
-### Download:
+## Download:
 npm install zoinks
 
-### Run:
+## Run:
 zoinks MyWebsite.com
 
-### - Options -
+## - Options -
 **--haslogin** *(bool)* Sets flag telling runner to log-in to a provided account before crawling.
 
 **--takescreenshotseverypage** *(bool)* Take a screenshot on successful page loads, in addition to the failed ones.
