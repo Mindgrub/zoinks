@@ -28,7 +28,7 @@ zoinks MyWebsite.com
 
 **--contentloadselector** *(string)* Css selector that will locate an element on the page that would only exist if page load has completed. This selector must be available on all pages. If not provided, content load check will not be performed.
 
-**--maxsequentialerrors** *(number)* The number of sequential failed tests before exiting test early on suspicion of website being down. This is primarily for fast failing when zoinks is being used for CI health checks. Default is 2. This means that 2 concurrent failures after the initial error will cause an early exit.
+**--maxsequentialerrors** *(number)* The number of sequential failed tests before exiting test early on suspicion of website being down. This is primarily for fast failing when zoinks is being used for CI health checks. Default is 2. This means that 2 concurrent failures after the initial error will cause an early exit. Non-numerical value, or value less than 0 is considered infinity, and no amount of errors will cause an early exit.
 
 **--loginconfirmedselector** *(string)* Css selector that will locate an element on the page that would only exist if user has successfully logged in.
 
